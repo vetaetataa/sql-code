@@ -144,9 +144,10 @@
            sum(appointment_click_cnt) sum_appointment_click_cnt,
            sum(call_order_click_cnt)  sum_call_order_click_cnt
     from final_visits
+    group by visit_type
+    order by visit_cnt desc
+    limit 1000;
 
 
+### 3
 
-group by visit_type
-order by visit_cnt desc
-limit 1000;
