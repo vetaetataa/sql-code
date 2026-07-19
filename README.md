@@ -1,6 +1,6 @@
-# sql-code
+Примеры кода на питоне, AMPL в прикрепленных файлах. Ниже пример sql скриптов
 
-## examples of sql code
+## sql-code
 ### 1
     select EventID,
            EventName,
