@@ -1,7 +1,7 @@
 # sql-code
 
 ## examples of sql code
-
+### 1
     select EventID,
            EventName,
            case
@@ -28,6 +28,7 @@
       and EventID in ('1249', '1248')
     group by EventID, EventName, event_label, EventAction, event_content, event_context
     order by visit_cnt desc;
+### 2
 
     select
         --EventLabel,
